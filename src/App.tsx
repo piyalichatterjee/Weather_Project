@@ -5,6 +5,7 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 
 function App() {
   const queryClient = new QueryClient()
+  
   return (
      <QueryClientProvider client={queryClient}>
     <div className='text-8xl text-red-500 underline'>
@@ -15,5 +16,6 @@ function App() {
     </QueryClientProvider>
   )
 }
+
 
 export default App
